@@ -1,0 +1,14 @@
+command_id: 746.7B0.222603|fc=1,din=03
+test_cases:
+- expected_values:
+    TERRAMAR_CLIMATE_A_C_COMP_SPD: 0
+  response: 7B00462260300
+- expected_values:
+    TERRAMAR_CLIMATE_A_C_COMP_SPD: 800
+  response: 7B00462260308
+- expected_values:
+    TERRAMAR_CLIMATE_A_C_COMP_SPD: 2700
+  response: 7B0046226031B
+- expected_values:
+    TERRAMAR_CLIMATE_A_C_COMP_SPD: 4600
+  response: 7B0046226032E

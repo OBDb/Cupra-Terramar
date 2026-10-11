@@ -1,0 +1,14 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_MQB_SWA: 560.685
+  response: 77C056218121185
+- expected_values:
+    TERRAMAR_MQB_SWA: 753.185
+  response: 77C056218121789
+- expected_values:
+    TERRAMAR_MQB_SWA: 768.935
+  response: 77C056218121807
+- expected_values:
+    TERRAMAR_MQB_SWA: 769.31
+  response: 77C05621812180A

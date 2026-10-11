@@ -1,0 +1,30 @@
+command_id: 710.77A.2215D1|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 9150
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1010001B7
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 9600
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1010001C0
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 10750
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001D7
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 11550
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001E7
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 12400
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001F8
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 12650
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001FD
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 550
+    TERRAMAR_EM_PWR_LIM: 100
+  response: 77A076215D10300020B

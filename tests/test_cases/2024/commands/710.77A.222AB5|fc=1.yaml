@@ -1,0 +1,32 @@
+command_id: 710.77A.222AB5|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 0
+  response: |-
+    77A100D622AB5020E02
+    77A210E000007FF0000
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 0
+  response: |-
+    77A100D622AB5021102
+    77A2111000007FF0000
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 9
+  response: |-
+    77A100D622AB5022802
+    77A211F000907FF0000
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 13
+  response: |-
+    77A100D622AB5022C02
+    77A211F000D07FF0000
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 64
+  response: |-
+    77A100D622AB5023D01
+    77A21FD004007FF0000
+- expected_values:
+    TERRAMAR_RANGE_EST_CAN: 68
+  response: |-
+    77A100D622AB5024201
+    77A21FE004407FF0000

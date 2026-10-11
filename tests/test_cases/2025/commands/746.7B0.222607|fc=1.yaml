@@ -1,0 +1,14 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_CLIMATE_RAD_FAN_CMD_DUTY: 0
+  response: 7B00462260700
+- expected_values:
+    TERRAMAR_CLIMATE_RAD_FAN_CMD_DUTY: 23.6
+  response: 7B0046226073B
+- expected_values:
+    TERRAMAR_CLIMATE_RAD_FAN_CMD_DUTY: 55.2
+  response: 7B0046226078A
+- expected_values:
+    TERRAMAR_CLIMATE_RAD_FAN_CMD_DUTY: 81.6
+  response: 7B004622607CC

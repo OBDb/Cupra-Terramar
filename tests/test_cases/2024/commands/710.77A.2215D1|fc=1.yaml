@@ -1,0 +1,10 @@
+command_id: 710.77A.2215D1|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 9900
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001C6
+- expected_values:
+    TERRAMAR_EM_NV_PWR_LIM: 12650
+    TERRAMAR_EM_PWR_LIM: 50
+  response: 77A076215D1030001FD

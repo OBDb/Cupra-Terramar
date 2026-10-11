@@ -1,0 +1,17 @@
+command_id: 746.7B0.22260A|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_OUTSIDE_T_SYSTEM: 63
+  response: 7B00462260A7E
+- expected_values:
+    TERRAMAR_OUTSIDE_T_SYSTEM: -63
+  response: 7B00462260A82
+- expected_values:
+    TERRAMAR_OUTSIDE_T_SYSTEM: -61
+  response: 7B00462260A86
+- expected_values:
+    TERRAMAR_OUTSIDE_T_SYSTEM: -60
+  response: 7B00462260A88
+- expected_values:
+    TERRAMAR_OUTSIDE_T_SYSTEM: -59.5
+  response: 7B00462260A89

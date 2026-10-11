@@ -1,0 +1,14 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_CLIMATE_T_AFTER_EVAP: 0.33333
+  response: 7B0056226120190
+- expected_values:
+    TERRAMAR_CLIMATE_T_AFTER_EVAP: 0.33333
+  response: 7B00562261201FE
+- expected_values:
+    TERRAMAR_CLIMATE_T_AFTER_EVAP: 0.66667
+  response: 7B0056226120226
+- expected_values:
+    TERRAMAR_CLIMATE_T_AFTER_EVAP: 0.66667
+  response: 7B005622612023A

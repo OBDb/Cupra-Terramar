@@ -1,0 +1,32 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 14.625
+  response: |-
+    77A100B622AB8018402
+    77A214900000000AAAA
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 15.2
+  response: |-
+    77A100B622AB8018402
+    77A216000000000AAAA
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 12
+  response: |-
+    77A100B622AB8018801
+    77A21E000000000AAAA
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 0
+  response: |-
+    77A100B622AB8019200
+    77A210000000000AAAA
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 3.975
+  response: |-
+    77A100B622AB801A500
+    77A219F00000000AAAA
+- expected_values:
+    TERRAMAR_HVBAT_E_CONTENT: 5.425
+  response: |-
+    77A100B622AB801A600
+    77A21D900000000AAAA
