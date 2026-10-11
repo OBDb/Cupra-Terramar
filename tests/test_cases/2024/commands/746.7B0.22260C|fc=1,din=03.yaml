@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260C|fc=1,din=03
+test_cases:
+- expected_values:
+    TERRAMAR_CLIMATE_FR_L_DEFL_T: 39
+  response: 7B00462260C75
+- expected_values:
+    TERRAMAR_CLIMATE_FR_L_DEFL_T: 48
+  response: 7B00462260C90

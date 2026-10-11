@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Cupra_Terramar"
+
+generations:
+  - name: "First Generation"
+    start_year: 2024
+    end_year: null
+    description: "A compact SUV on the MQB Evo platform shared with the third-generation Tiguan, with TSI gasoline, mild-hybrid and e-Hybrid plug-in powertrains."

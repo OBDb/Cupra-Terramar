@@ -1,0 +1,14 @@
+command_id: 746.7B0.22261E|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_ACT: 435
+  response: 7B00662261E01B34D
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_ACT: 565
+  response: 7B00662261E023573
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_ACT: 684
+  response: 7B00662261E02AC96
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_ACT: 863
+  response: 7B00662261E035FC8

@@ -1,0 +1,14 @@
+command_id: 746.7B0.222611|fc=1,din=03
+test_cases:
+- expected_values:
+    TERRAMAR_CLIMATE_LEG_DEFL_T: 41.33333
+  response: 7B0046226117C
+- expected_values:
+    TERRAMAR_CLIMATE_LEG_DEFL_T: 43.66667
+  response: 7B00462261183
+- expected_values:
+    TERRAMAR_CLIMATE_LEG_DEFL_T: 49
+  response: 7B00462261193
+- expected_values:
+    TERRAMAR_CLIMATE_LEG_DEFL_T: 49.66667
+  response: 7B00462261195

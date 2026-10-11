@@ -1,0 +1,14 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_AAT: 11
+  response: 7B0046226097A
+- expected_values:
+    TERRAMAR_AAT: 18
+  response: 7B00462260988
+- expected_values:
+    TERRAMAR_AAT: 25
+  response: 7B00462260996
+- expected_values:
+    TERRAMAR_AAT: 34
+  response: 7B004622609A8

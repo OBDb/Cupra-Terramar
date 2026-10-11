@@ -1,0 +1,14 @@
+command_id: 746.7B0.220800|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_AC_CMPR_PWR_ACT: null
+  response: |-
+    7B0100E620800100000
+    7B0210000FFFF005680
+    7B02255AAAAAAAAAAAA
+- expected_values:
+    TERRAMAR_AC_CMPR_PWR_ACT: 1848
+  response: |-
+    7B0100E620800514D40
+    7B0214D400738165400
+    7B0226DAAAAAAAAAAAA

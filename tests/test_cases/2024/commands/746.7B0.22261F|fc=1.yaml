@@ -1,0 +1,20 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 431
+  response: 7B00562261F01AF
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 445
+  response: 7B00562261F01BD
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 468
+  response: 7B00562261F01D4
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 479
+  response: 7B00562261F01DF
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 489
+  response: 7B00562261F01E9
+- expected_values:
+    TERRAMAR_MQB_RECIRC_FLAP_TRG: 744
+  response: 7B00562261F02E8
