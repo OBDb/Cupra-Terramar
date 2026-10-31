@@ -72,7 +72,7 @@
     {"id": "TERRAMAR_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by power"},
     {"id": "TERRAMAR_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                              "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1805"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TERRAMAR_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
@@ -96,7 +96,7 @@
   "signals": [
     {"id": "TERRAMAR_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "220C"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TERRAMAR_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -112,7 +112,7 @@
   "signals": [
     {"id": "TERRAMAR_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TERRAMAR_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR", "suggestedMetric": "odometer"}
   ]},

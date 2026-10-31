@@ -21,6 +21,11 @@ test_cases:
     77A100A622AB601FA01
     77A21CC002E00AAAAAA
 - expected_values:
+    TERRAMAR_RANGE_V2: 507
+  response: |-
+    77A100A622AB601FB01
+    77A21AE004D00AAAAAA
+- expected_values:
     TERRAMAR_RANGE_V2: 554
   response: |-
     77A100A622AB6022A02
