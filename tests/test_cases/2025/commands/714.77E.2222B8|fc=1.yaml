@@ -1,0 +1,14 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    TERRAMAR_ODO_MILEAGE_HR: 36520.33
+  response: 77E076222B8022D418A
+- expected_values:
+    TERRAMAR_ODO_MILEAGE_HR: 36520.723
+  response: 77E076222B8022D4313
+- expected_values:
+    TERRAMAR_ODO_MILEAGE_HR: 36520.73
+  response: 77E076222B8022D431A
+- expected_values:
+    TERRAMAR_ODO_MILEAGE_HR: 36520.87
+  response: 77E076222B8022D43A6
